@@ -31,18 +31,18 @@ The main goal of this project is to understand how Node.js works behind the scen
 
 ## 📚 Learning Notes
 
-| Step | Topic                            |
-| ---- | -------------------------------- |
-| 01   | Project Initialization           |
-| 02   | TypeScript Setup                 |
-| 03   | Project Structure                |
-| 04   | Running TypeScript Server        |
-| 05   | Creating First HTTP Server       |
-| 06   | Understanding Request & Response |
-| 07   | Basic Routing                    |
-| 08   | Parsing Request Body             |
-| 09   | Utility Functions                |
-| 10   | CRUD API Development             |
+| Step | Topic                                                                                                                             |
+| ---- | --------------------------------                                                                                                  |
+| 01   | Project Initialization                                                                                                            |
+| 02   | TypeScript Setup                                                                                                                  |
+| 03   | Project Structure                                                                                                                 |
+| 04   | Running TypeScript Server                                                                                                         |
+| 05   | Creating First HTTP Server                                                                                                        |
+| 06   | Understanding Request & Response                                                                                                  |
+| 07   | Basic Routing                                                                                                                     |
+| 08   | Parsing Request Body                                                                                                              |
+| 09   | Utility Functions                                                                                                                 |
+| 10   | CRUD API Development                                                                                                              |
 
 Detailed explanations are available inside the **notes/** directory.
 
