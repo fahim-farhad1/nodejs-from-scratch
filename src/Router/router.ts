@@ -5,7 +5,6 @@ export const routeHandeler = (req: IncomingMessage, res: ServerResponse) => {
   const url = req.url;
   const method = req.method;
 
-  console.log(url, method);
   if (url === "/" && method === "GET") {
     res
       .writeHead(200, { "content-type": "application/json" })
