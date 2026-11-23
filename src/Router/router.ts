@@ -9,10 +9,10 @@ export const routeHandeler = (req: IncomingMessage, res: ServerResponse) => {
     res
       .writeHead(200, { "content-type": "application/json" })
       .end(JSON.stringify({ message: "You are in Right Path...." }));
-  } else if (url?.startsWith("/products") && method === "GET") {
+  } else if (url?.startsWith("/products")) {
     ProductController(req, res);
   } else
     res
       .writeHead(404, { "content-type": "text/plain" })
-      .end("Page not found...");
+      .end("Page not found...!!!!!!");
 };
