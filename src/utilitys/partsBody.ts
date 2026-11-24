@@ -6,12 +6,12 @@ export const parseBody = (req: IncomingMessage): Promise<any> => {
     req.on("data", (chunk: any) => {
       body += chunk;
     });
-    req.on("end", () => {
-      try {
-        resolve(body);
-      } catch (error) {
-        reject(body);
-      }
-    });
+    req.on('end', ()=>{
+        try {
+            resolve(JSON.parse(body))
+        } catch (error) {
+            reject(body)
+        }
+    })
   });
 };
