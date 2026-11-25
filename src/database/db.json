@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Wireless Mouse",
-    "price": 850,
+    "price": 85000,
     "category": "Electronics",
     "stock": 25
   },
@@ -15,23 +15,23 @@
   },
   {
     "id": 3,
-    "name": "USB-C Hub",
-    "price": 1800,
-    "category": "Accessories",
-    "stock": 10
-  },
-  {
-    "id": "4",
     "name": "Wireless Mouse",
-    "price": "850",
+    "price": 85000,
     "category": "Electronics",
-    "stock": "25"
+    "stock": 2500
   },
   {
     "id": 4,
     "name": "Wireless Mouse",
-    "price": 850,
+    "price": 85000,
     "category": "Electronics",
-    "stock": 25
+    "stock": 2500
+  },
+  {
+    "id": 5,
+    "name": "Wireless Mouse",
+    "price": 85000,
+    "category": "Electronics",
+    "stock": 120
   }
 ]
